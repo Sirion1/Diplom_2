@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: UserNoAutorizationChangeDataTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.13 s <<< FAILURE! - in UserNoAutorizationChangeDataTest
+changeDataUserWithoutAuthorization(UserNoAutorizationChangeDataTest)  Time elapsed: 1.124 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <202> but was <404>.
+
+	at UserNoAutorizationChangeDataTest.tearDown(UserNoAutorizationChangeDataTest.java:22)
+
