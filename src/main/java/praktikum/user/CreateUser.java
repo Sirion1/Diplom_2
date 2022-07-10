@@ -5,9 +5,8 @@ import io.restassured.response.Response;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import static io.restassured.RestAssured.given;
-import static org.apache.http.HttpStatus.SC_ACCEPTED;
+
 
 public class CreateUser {
 
@@ -141,7 +140,7 @@ public class CreateUser {
                     .when()
                     .delete("auth/user")
                     .then()
-                    .statusCode(SC_ACCEPTED);
+                    .statusCode(202);
             System.out.println(getAccessToken());
         }
 }
