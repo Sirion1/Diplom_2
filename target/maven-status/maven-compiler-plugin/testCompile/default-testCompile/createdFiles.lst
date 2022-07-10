@@ -1,0 +1,6 @@
+UserAuthorizationChangeDataTest.class
+UserNoAutorizationChangeDataTest.class
+LoginTest.class
+UserWithoutTokenOrderTest.class
+NewUserTest.class
+OrderTest.class
